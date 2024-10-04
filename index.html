@@ -1,0 +1,120 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+ 
+<head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Mondrian Project</title> 
+  <style> 
+    /*  
+    Write your CSS here  
+    Gap Colour: #000 
+    White: #F0F1EC 
+    Red: #E72F24 
+    Black: #232629 
+    Blue: #004592 
+    Yellow: #F9D01E 
+ 
+    For dimensions, see dimensions.png image. 
+    HINT: Remember you can't change the properties of grid lines. 
+    But grid lines are transparent! 
+    */ 
+    .container {  
+      display: grid;  
+      width: 748px;  
+      height: 748px;  
+      grid-template-columns: 320px 9px 351px 9px 50px;  
+      grid-template-rows: 414px 9px 269px 9px 20px;  
+    }  
+  
+    .red {  
+      background-color: red;  
+      width: 100%;  
+      height: 100%;  
+    }  
+    .bode{  
+      display: flex;  
+      justify-content: center;  
+    }  
+    .gap{  
+      background-color: #232629 ;  
+      width: 100%;  
+      height: 100%;  
+    }  
+    .white{  
+      background-color: #f0f1ec;  
+      width: 100%;  
+      height: 100%;  
+    }  
+    .newcorner{  
+      position: absolute;  
+      margin-top: 423px;  
+      margin-left: 689px;  
+      display: grid;  
+      width: 50px;  
+      height: 324px;  
+      grid-template-rows: 130px 10px 155px 9px 20px;  
+    }  
+    .blue{  
+      background-color:  #004592 ;  
+      width: 100%;  
+      height: 100%;  
+    }  
+    .yellow{  
+      background-color:  #f7ff03 ;  
+      width: 100%;  
+      height: 100%;  
+    }  
+    .secondcorner{  
+      position: absolute;  
+      margin-top: 701px;  
+      margin-left: 329px;  
+      display: grid;  
+      width: 360px;  
+      height: 20px;  
+      grid-template-columns: 198px 9px 153px;  
+    }  
+  </style> 
+</head> 
+ 
+<body> 
+  <!-- Write your HTML here --> 
+  <div class="container">  
+    <div class="red"></div>  
+    <div class="gap"></div>  
+    <div class="white"></div>  
+    <div class="white"></div>  
+    <div class="white"></div>   
+    <div class="gap"></div>  
+    <div class="gap"></div>  
+    <div class="gap"></div>  
+    <div class="gap"></div>  
+    <div class="gap"></div>  
+    <div class="white"></div>  
+    <div class="gap"></div>  
+    <div class="white"></div>  
+    <div class="gap"></div>  
+    <div class="newcorner">  
+      <div class="blue"></div>  
+      <div class="gap"></div>  
+      <div class="white"></div>  
+    </div>  
+    <div class="white"></div>  
+    <div class="gap"></div>  
+    <div class="gap"></div>  
+    <div class="gap"></div>  
+    <div class="gap"></div>  
+    <div class="white"></div>  
+    <div class="white"></div>  
+    <div class="gap"></div>  
+    <div class="secondcorner">  
+      <div class="yellow"></div>  
+      <div class="gap"></div>  
+      <div style="background-color: #955622;"></div>  
+  
+    </div>  
+  </div>  
+ 
+</body> 
+ 
+</html>
